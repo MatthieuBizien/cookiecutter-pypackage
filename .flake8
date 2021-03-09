@@ -25,7 +25,10 @@ exclude =
     *.pyc,
     *.egg-info,
     .cache,
-    .eggs
+    .eggs,
+    .env,
+    .venv,
+    .dvc
 max-complexity = 10
 import-order-style = google
 format = ${cyan}%(path)s${reset}:${yellow_bold}%(row)d${reset}:${green_bold}%(col)d${reset}: ${red_bold}%(code)s${reset} %(text)s

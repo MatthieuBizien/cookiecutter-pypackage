@@ -13,7 +13,10 @@ exclude =
     *.pyc,
     *.egg-info,
     .cache,
-    .eggs
+    .eggs,
+    .env,
+    .venv,
+    .dvc
 max-complexity = 10
 import-order-style = google
 application-import-names = {{ cookiecutter.project_slug }}
